@@ -85,3 +85,5 @@ def bubble_sort(a=[0,7,1,5,4,9]):
 this_is_sample_for_def=[0,7,1,5,4,9]
 result=bubble_sort(this_is_sample_for_def)
 print(result)
+result=bubble_sort()
+print(result)
