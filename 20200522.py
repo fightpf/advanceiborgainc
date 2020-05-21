@@ -1,3 +1,8 @@
+#while else用法
+#當while後的布林值為False時跳至else區塊執行
+#也可以理解為while區塊執行完畢後，執行else區塊
+
+
 ##找質數
 num=eval(input("請輸入一個待檢查的數字"))
 count=2
@@ -27,6 +32,8 @@ def countingnum(numb=0):
 
     else:
         return countingnum(numb+1)
+countingnum()
+
 ##爬樓梯問題
 
 ##製造費波納係數列
@@ -47,8 +54,16 @@ with open('demo.py', 'r', encoding='UTF-8') as file:
         print(line, end='')
 
 
+##例外處裡，若我們有可能遇到錯誤，但是不希望程式停下可使用以下關鍵字
+#try:
+#except:
+#finally:
+##try區塊若遇到例外事件，會跳至except並執行
+#finnaly 區塊無論except區塊是否發生皆會執行
+#也可以使用else關鍵字，當try區塊未觸發錯誤時，跳過except區塊至else
 
-countingnum()
+
+
 ###沒有使用裝飾器decorator
 def print_func_name(func):
     def wrap():
