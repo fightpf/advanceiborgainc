@@ -3,8 +3,8 @@
 高無python筆記
 
 
-首先先至(作業系統若是64位元win10)
-https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe
+首先先至(作業系統若是64位元win10) \n
+https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe \n
 下載python 或是其他穩定版本64位元
 
 接著至Visual Studio Code 官網
