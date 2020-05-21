@@ -27,6 +27,9 @@ def countingnum(numb=0):
 
     else:
         return countingnum(numb+1)
+##爬樓梯問題
+
+##製造費波納係數列
 
 
 #使用遞迴涵式製造費波納系數列
@@ -38,8 +41,12 @@ def recursor_test(numb):
     else:
         return recursor_test(numb-1)+recursor_test(numb-2)
 
+##可使用with as 取代 open() ，優點在於不需要.close()關閉檔案
+with open('demo.py', 'r', encoding='UTF-8') as file:
+    for line in file:
+        print(line, end='')
 
-    
+
 
 countingnum()
 ###沒有使用裝飾器decorator
