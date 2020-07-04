@@ -80,3 +80,22 @@ a,b=b,a
 #\t tab
 #\
 #print('hello\nworld')
+
+#位元運算子
+#<<	向左位移	a << n
+#>>	向右位移	a >> n
+#&	位元且	a & b
+#|	位元包含或	a | b
+#^	位元互斥或	a ^ b
+#~	位元相反	~a
+
+#if 判斷式
+#if expression :  expression為布林值
+#if a>0:
+# print("a大於零")
+#else :
+# print("a小於零")
+
+#while expression :
+
+#for A in B : B為可迭代物件
