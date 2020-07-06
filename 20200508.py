@@ -89,13 +89,13 @@ a,b=b,a
 #^	位元互斥或	a ^ b
 #~	位元相反	~a
 
-#if 判斷式
+#有條件執行if 判斷式
 #if expression :  expression為布林值
 #if a>0:
 # print("a大於零")
 #else :
 # print("a小於零")
-
+#迴圈:符合條件的重複執行
 #while expression :
-
+#迴圈:計次型的重複執行
 #for A in B : B為可迭代物件
