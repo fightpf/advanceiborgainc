@@ -75,7 +75,22 @@ with open('demo.py', 'r', encoding='UTF-8') as file:
 #finnaly 區塊無論except區塊是否發生皆會執行
 #也可以使用else關鍵字，當try區塊未觸發錯誤時，跳過except區塊至else
 
+#使用generator 產生費氏數列 yeild被執行一次才會__next__屬性
+def fib2(n):
+    i, a, b = 0, 0, 1
+    while True:
+        if n <= 0 or i == n:
+            break
+        a, b = b, a + b
+        yield a
+        i += 1
 
+d=fib2(10)
+print(next(d))
+print(next(d))
+print(next(d))
+print(next(d))     
+print(next(d))
 
 ###沒有使用裝飾器decorator
 def print_func_name(func):
