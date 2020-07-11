@@ -48,6 +48,17 @@ for i in fopen:
     print(i)
 fopen.close
 
+#找零問題:
+money=153
+coin=[100,50,10,5,1]
+answer=[]
+for i in coin:
+  answer_temp=money//i
+  money=money%i
+  answer.append(answer_temp)
+for i in range(len(coin)):
+  print("需要使用",coin[i],"元",answer[i],"個")
+  
 #迴圈控制
 ##continue 直接進入迴圈下一個round
 ##break    強制結束迴圈
