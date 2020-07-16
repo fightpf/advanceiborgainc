@@ -142,7 +142,8 @@ def max_temp(m,n):
 #等價於
 max_temp2= lambda m , n :m if m > n else n
 ##list comprehension
-#list = expression for loop if statement
+#list = [(expression) (for loop)* (if statment)*]
+
 x = [i for i in range(10) if i % 2 ==0]
 #等價於
 x = []
